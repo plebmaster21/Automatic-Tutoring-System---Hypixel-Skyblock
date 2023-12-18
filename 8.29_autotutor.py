@@ -8,7 +8,7 @@ import asyncio
 from datetime import datetime as date
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix=".",intents=intents)
-TOKEN = "OTQ0NzUxNTQ0MTE1NTMxNzk2.YhGKcA.nLvPynz-8DmVMlejm88hbgfTmf8"
+
 key = "1a78bf54-05c3-420f-81fa-2ab2d58867ae"
 bot.remove_command('help')
 print(f'{bot.user} is ready')
